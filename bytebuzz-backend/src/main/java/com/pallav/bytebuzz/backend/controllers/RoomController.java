@@ -36,7 +36,7 @@ public class RoomController
             // Create new room
         Room room = new Room();
         room.setRoomId(roomId);
-        Room saveRoom = roomRepository.save(room);
+        roomRepository.save(room);
         return ResponseEntity.status(HttpStatus.CREATED).body(room);
     }
 

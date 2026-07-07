@@ -401,12 +401,12 @@ const JoinCreateChat = () => {
           <p>
             Built with ❤️ by
             <a
-              href="https://rachitsharma300.github.io/rachitsharma/"
+              href="https://github.com/Pallav2003"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
             >
-              Rachit Sharma
+              Pallav Choudhary
             </a>
           </p>
           <p className="mt-1">© {new Date().getFullYear()} ByteBuzz Chat</p>
